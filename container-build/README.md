@@ -27,7 +27,7 @@ USER 1001
 > Do a local docker build and push the child image to quay.io registry
 ```
 $ docker build -t do288-apache .
-$ ocker tag do288-apache quay.io/jackhu008/do288-apache
+$ docker tag do288-apache quay.io/jackhu008/do288-apache
 $ docker images
 $ docker push quay.io/jackhu008/do288-apache
 ... go to quay.io website and make the image public
